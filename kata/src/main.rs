@@ -9,7 +9,11 @@ fn main() {
 }
 
 fn bmi(weight: u32, height: f32) -> &'static str {
-    let bmi: f32 = weight as f32 / (height * height);
+    let bmi = calc_bmi(weight, height);
+    get_bmi_conclusion(bmi)
+}
+
+fn get_bmi_conclusion(bmi: f32) -> &'static str {
     match bmi {
         b if b <= 18.5 => "Underweight",
         b if b <= 25.0 => "Normal",
@@ -17,6 +21,11 @@ fn bmi(weight: u32, height: f32) -> &'static str {
         b if b > 30.0 => "Obese",
         _ => "",
     }
+}
+
+fn calc_bmi(weight: u32, height: f32) -> f32 {
+    let bmi: f32 = weight as f32 / (height * height);
+    bmi
 }
 
 fn bouncing_ball(h: f64, bounce: f64, window: f64) -> i32 {
