@@ -1,5 +1,14 @@
 [workspace]
 
 members = [
-    "branches","exercices_ch3","functions","guessing_game","kata", "loops","ownership","slices","variables"
+    "branches",
+    "exercices_ch3",
+    "functions",
+    "guessing_game",
+    "kata",
+    "loops",
+    "ownership",
+    "slices",
+    "structure",
+    "variables"
 ]
