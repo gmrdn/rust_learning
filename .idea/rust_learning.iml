@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/guessing_game/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kata/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/structure/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rectangles/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/branches/target" />
       <excludeFolder url="file://$MODULE_DIR$/exercices_ch3/target" />
       <excludeFolder url="file://$MODULE_DIR$/functions/target" />

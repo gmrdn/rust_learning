@@ -10,5 +10,6 @@ members = [
     "ownership",
     "slices",
     "structure",
-    "variables"
+    "variables",
+    "rectangles"
 ]
