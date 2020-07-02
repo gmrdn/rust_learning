@@ -11,5 +11,6 @@ members = [
     "slices",
     "structure",
     "variables",
-    "rectangles"
+    "rectangles",
+    "enums"
 ]
